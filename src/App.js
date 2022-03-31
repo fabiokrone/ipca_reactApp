@@ -28,9 +28,13 @@ class App extends Component{
 			
 			<li key={ipca.data}>
 				<h2>
-					<strong> Valor ipca: </strong>
-					{ipca.data.show}
+					<strong> Data: </strong>
+					{ipca.data}
 				</h2>
+				<p>
+					<strong> Valor: </strong>
+					{ipca.valor}
+				</p>
 			
 			</li>
 			))}
