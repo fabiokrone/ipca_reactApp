@@ -1,6 +1,12 @@
 import React, {Component} from 'react';
 import api from './api';
 
+import {  BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+
+import home from './pages/home';
+<Route exact path="/" component={home} />
+
+
 
 class App extends Component{
 	
