@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import api from './api';
 
+
+
 import {  BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import home from './pages/home';
@@ -22,8 +24,6 @@ class App extends Component{
 	}
 	
 	
-	
-	
 	render(){
 		
 		const {ipca} = this.state;
@@ -32,20 +32,21 @@ class App extends Component{
 		return (
 		
 		<div>
-			<h2>IPCA últimos 12 meses</h2>
-			{console.log(ipca12)}
-			{ipca12.map(ipca12 => (
 			
-			<ul style={{listStyleType: "none"}}>
-				<li key={ipca12.data}>
-					<h4>
-						Data:&nbsp;{ipca12.data}&nbsp;&nbsp;
-						Valor:&nbsp;{ipca12.valor}
-					</h4>				
-				</li>
-			</ul>	
-			))}
-			
+				<h2>IPCA últimos 12 meses</h2>
+				{console.log(ipca12)}
+				{ipca12.map(ipca12 => (
+				
+				<ul style={{listStyleType: "none"}}>
+					<li key={ipca12.data}>
+						<h4>
+							Data:&nbsp;{ipca12.data}&nbsp;&nbsp;
+							Valor:&nbsp;{ipca12.valor}
+						</h4>				
+					</li>
+				</ul>	
+				))}
+				
 		
 			
 		</div>
