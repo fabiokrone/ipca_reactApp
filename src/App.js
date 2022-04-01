@@ -15,29 +15,30 @@ class App extends Component{
 		this.setState({ipca: response.data});
 	}
 	
+	
+	
 	render(){
 		
 		const {ipca} = this.state;
+		const ipca12 = ipca.splice(-12,12)
+				
+		return (
 		
-		
-		return(
 		<div>
-			<h1>Listar IPCA</h1>
-			{console.log(ipca)}
-			{ipca.map(ipca => (
+			<h2>IPCA últimos 12 meses</h2>
+			{console.log(ipca12)}
+			{ipca12.map(ipca12 => (
 			
-			<li key={ipca.data}>
-				<h2>
-					<strong> Data: </strong>
-					{ipca.data}
-				</h2>
-				<p>
-					<strong> Valor: </strong>
-					{ipca.valor}
-				</p>
-			
-			</li>
+			<ul style={{listStyleType: "none"}}>
+				<li key={ipca12.data}>
+					<h4>
+						Data:&nbsp;{ipca12.data}&nbsp;&nbsp;
+						Valor:&nbsp;{ipca12.valor}
+					</h4>				
+				</li>
+			</ul>	
 			))}
+			
 		
 			
 		</div>
