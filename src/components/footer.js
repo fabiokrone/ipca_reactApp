@@ -1,16 +1,14 @@
 import React, { Component } from 'react';
 
-Class Footer extends Component {
+class Footer extends Component {
 	render() {
 		return(
 		
-			//Put your HTML code here
-			
-			
+			//Put your HTML code here		
 			<footer class="footer text-center">
             <div class="container">
                 <div class="row">
-                    <!-- Footer Location-->
+                    
                     <div class="col-lg-4 mb-5 mb-lg-0">
                         <h4 class="text-uppercase mb-4">Location</h4>
                         <p class="lead mb-0">
@@ -19,7 +17,7 @@ Class Footer extends Component {
                             Clark, MO 65243
                         </p>
                     </div>
-                    <!-- Footer Social Icons-->
+                    
                     <div class="col-lg-4 mb-5 mb-lg-0">
                         <h4 class="text-uppercase mb-4">Around the Web</h4>
                         <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
@@ -27,7 +25,7 @@ Class Footer extends Component {
                         <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
                         <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>
                     </div>
-                    <!-- Footer About Text-->
+                   
                     <div class="col-lg-4">
                         <h4 class="text-uppercase mb-4">About Freelancer</h4>
                         <p class="lead mb-0">
@@ -39,14 +37,8 @@ Class Footer extends Component {
                 </div>
             </div>
         </footer>
-        <!-- Copyright Section-->
-        <div class="copyright py-4 text-center text-white">
-            <div class="container"><small>Copyright &copy; Your Website 2022</small></div>
-        </div>
-			
-			
-			
-			
+        
+     			
 			
 			
 			
