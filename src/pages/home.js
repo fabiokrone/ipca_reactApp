@@ -21,6 +21,9 @@ class Home extends Component {
 				
 				
 				<Footer/>
+				<div class="copyright py-4 text-center text-white">
+                    <div class="container"><small>Copyright &copy; Fábio Krone 2022</small></div>
+                </div>
 			</div>
 		
 		)

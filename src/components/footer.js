@@ -29,10 +29,9 @@ class Footer extends Component {
                       
                     </div>
                 </div>
-                <div class="copyright py-4 text-center text-white">
-                    <div class="container"><small>Copyright &copy; Fábio Krone 2022</small></div>
-                </div>
+               
             </footer>
+            
 
 
 
