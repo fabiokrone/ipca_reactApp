@@ -1,7 +1,11 @@
 import React, {Component} from 'react';
 
+
+
 import Header from '../components/header';
 import Footer from '../components/footer';
+import Ipca from '../components/ipca';
+
 
 class Home extends Component {
 	
@@ -10,7 +14,9 @@ class Home extends Component {
 		return (
 			<div>
 				<Header/>
-				// Here is the location for us to insert html files or code to render the rest of the page
+				<Ipca />
+				
+				
 				<Footer/>
 			</div>
 		
