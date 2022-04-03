@@ -3,22 +3,18 @@ import React, { Component } from 'react';
 class Header extends Component {
     render() {
         return (
-
-            //Put your HTML code here
-
-
-            <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
-                <div class="container">
-                    <a class="navbar-brand" href="#page-top">IPCA</a>
-                    <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                        Menu
-                        <i class="fas fa-bars"></i>
-                    </button>
-                    
-                </div>
-            </nav>
-
-
+            <header class="masthead bg-primary text-white text-center">
+            <div class="container d-flex align-items-center flex-column">
+              
+               
+               
+                <h1 class="masthead-heading text-uppercase mb-0">Ipca</h1>
+            
+               
+            
+                <p class="masthead-subheading font-weight-light mb-0">O Sistema Nacional de Índices de Preços ao Consumidor – SNIPC produz contínua e sistematicamente o Índice Nacional de Preços ao Consumidor Amplo – IPCA que tem por objetivo medir a inflação de um conjunto de produtos e serviços comercializados no varejo, referentes ao consumo pessoal das famílias. Esta faixa de renda foi criada com o objetivo de garantir uma cobertura de 90% das famílias pertencentes às áreas urbanas de cobertura do Sistema Nacional de Índices de Preços ao Consumidor - SNIPC.</p>
+            </div>
+        </header>
 
 
         )

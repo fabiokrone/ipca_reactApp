@@ -26,14 +26,7 @@ class Footer extends Component {
                     
                         </div>
 
-                        <div class="col-lg-4">
-                            
-                            <p class="lead mb-0">
-                                Freelance is a free to use, MIT licensed Bootstrap theme created by
-                                <a href="http://startbootstrap.com">Start Bootstrap</a>
-                                .
-                            </p>
-                        </div>
+                      
                     </div>
                 </div>
                 <div class="copyright py-4 text-center text-white">
